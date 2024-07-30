@@ -4,7 +4,7 @@
 
 ```dart
 void main() async {
-  AiGenerator.init(
+  AiImageGenerator.init(
     key: "OPEN_AI_GPT_KEY",
   );
   // ...
@@ -15,6 +15,6 @@ void main() async {
 
 ```dart
 Future<AiResponse> generate(String topic) {
-  return AiGenerator.i.generate(topic);
+  return AiImageGenerator.i.generate(topic);
 }
 ```
