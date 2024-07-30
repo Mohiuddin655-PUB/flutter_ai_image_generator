@@ -1,0 +1,20 @@
+name: ai_image_generator
+description: "AI-powered flutter package for ai image generator using Openai."
+version: 1.0.0
+repository: https://github.com/Mohiuddin655-PUB/flutter_ai_image_generator.git
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
